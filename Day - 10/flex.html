@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			.a{
+				display : flex;
+				/*
+				flex-direction: row;
+				flex-wrap : wrap-reverse;
+				*/
+				flex-flow: wrap row-reverse;
+
+			}
+			.a div{
+				flex :auto;
+				font-size: 30px;
+				justify-content: center;
+				text-align: center;
+			}
+			.a1{
+				margin : 3px;
+				height : 100px;
+				width : 100px;
+				background-color: lightblue;
+				border:solid;
+			}
+			.a2{
+				margin : 3px;
+				height : 100px;
+				width : 100px;
+				background-color: lightgreen;
+				border:solid;
+			}
+			.a3{
+				margin : 3px;
+				height : 100px;
+				width : 100px;
+				background-color: lightpink;
+				border: solid;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="a">
+			<div class = "a1"><p>a</p></div>
+			<div class = "a2"><p>b</p></div>
+			<div class = "a3">c</div>
+			<div class = "a1">d</div>
+			<div class = "a2">e</div>
+			<div class = "a3">f</div>
+			<div class = "a1">g</div>
+			<div class = "a2">h</div>
+			<div class = "a3">i</div>
+			<div class = "a1">j</div>
+			<div class = "a2">k</div>
+			<div class = "a3">l</div>
+		</div>
+	</body>
+</html>
