@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="Text" id="abc">
+        <button onclick="validate()">Click me</button>
+        <script>
+            function validate(){
+                var x = document.getElementById("abc");
+                x.value = "none";
+                var k = x.value;
+                if (k=="sai"){
+                    alert("Coupen applied");
+                }
+                else{
+                    alert("Invalid coupen");
+                }
+            }
+        </script>
+    </body>
+</html>

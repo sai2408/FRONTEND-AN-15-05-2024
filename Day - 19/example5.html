@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <body>
+        <form id="abc">
+            <input type="text" name="username">
+            <br>
+            <br>
+            <input type="password" name="pass">
+            <br>
+            <br>
+            <button onclick="getvalue(); return false;">click me</button>
+        </form>
+        <script>
+            function getvalue(){
+                var x = document.getElementById("abc");
+                var z = new FormData(x);
+                console.log(z);
+                for (var k of z.entries()){
+                    console.log(k);
+                    //console.log(k[0] + " : " + k[1]);
+                }
+            }
+        </script>
+    </body>
+</html>

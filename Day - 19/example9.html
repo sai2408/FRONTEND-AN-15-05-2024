@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="abc">
+            <p>Hello World</p>
+        </div>
+        <button onclick="getval()">Click me</button>
+        <script>
+            function getval(){
+                var x = document.createElement("p");
+                x.textContent = "Sai Vardhan";
+                document.getElementById("abc").appendChild(x);
+            }
+        </script>
+    </body>
+</html>
