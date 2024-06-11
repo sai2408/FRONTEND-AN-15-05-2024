@@ -1,0 +1,25 @@
+@media (min-width:1500px){
+    .a{
+        display : grid;
+        color : blue;
+        grid-template-rows: 50px 50px 50px 50px 50px;
+    }
+}
+@media (min-width:1000px) and (max-width:1500px){
+    .a{
+        display : grid;
+        color : red;
+        grid-template-columns: 100px 100px 100px 100px 100px;
+
+    }
+}
+@media (min-width:500px) and (max-width:1000px){
+    .a{
+        display : grid;
+        color : green;
+        grid-template-columns: 100px 100px 100px 100px 100px;
+        position : absolute;
+        top : 95%;
+    }
+
+}

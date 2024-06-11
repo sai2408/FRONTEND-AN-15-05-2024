@@ -1,0 +1,36 @@
+@media (min-width:1500px){
+    .x{
+        color : green;
+    }
+}
+@media (min-width:1000px) and  (max-width:1500px){
+    .x{
+        color : blue;
+        display : grid;
+        grid-template-rows: 50px 50px 50px 50px;
+    }
+    .x div:hover{
+        font-size: 25px;
+        color: brown;
+        box-shadow: 0px 0px 10px brown;
+        width : 15%;
+        height : 30px;
+        border-radius: 10px;
+        text-align: center;
+    }
+}
+@media (min-width:500px) and (max-width:1000px){
+    .x{
+        justify-content: center;
+        color : red;
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px;
+        position : relative;
+        top : 620px;
+    }
+}
+@media (min-width:10px) and (max-width:500px){
+    .x{
+        color : green;
+    }
+}
